@@ -24,7 +24,7 @@ import com.amazonaws.services.lambda.runtime.RequestStreamHandler;
 
 public class SearchPlanHandler implements RequestStreamHandler {
 
-    private static final String SERVER_URI="https://search-basic-search-3xgpao4dpiofloqfz3a5vcasvm.us-west-1.es.amazonaws.com";
+    private static final String SERVER_URI="given elastic search service url";
     private static final String DEFAULT_INDEX = "plan-details";
     private static final String REQUEST_QUERY_PARAMETERS = "queryParams";
 
